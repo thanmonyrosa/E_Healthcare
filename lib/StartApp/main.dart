@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 // import './detail.dart';
 // import 'package:healthcare/newfeed.dart';
 // import 'package:healthcare/appointment.dart';
-import 'test.dart';
+import '../test.dart';
 // import 'appointment.dart';
 // import './newfeed.dart';
 
