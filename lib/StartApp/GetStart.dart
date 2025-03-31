@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:healthcare/RegisterAccount/singup.dart';
+
 
 class GetStart extends StatelessWidget {
   const GetStart({super.key});
@@ -109,10 +111,10 @@ class To_SignupDoneState extends State<Let_GetStart> {
                 width: 200,
                 child: ElevatedButton(
                   onPressed: () {
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(builder: (context) => RecodList()),// desination
-                    // );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => RegisterScreen()),// desination
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.lightBlue[100],
