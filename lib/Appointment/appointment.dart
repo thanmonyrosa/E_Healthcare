@@ -117,6 +117,7 @@ int _selectedTab = 0;
     );
   }
 
+
   Widget _buildAppointmentCard(Map<String, String> appointment, bool cancelled) {
     return Card(
       margin: EdgeInsets.all(15),
