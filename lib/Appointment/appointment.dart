@@ -1,14 +1,21 @@
 import 'package:flutter/material.dart';
 
-class AppointmentScreen extends StatefulWidget {
+class AppointmentScreen extends StatelessWidget {
   const AppointmentScreen({super.key});
 
   @override
-  _AppointmentScreenState createState() => _AppointmentScreenState();
+  Widget build(BuildContext context) {
+    return MaterialApp(debugShowCheckedModeBanner: false, home: ToForPassOTP());
+  }
 }
 
-class _AppointmentScreenState extends State<AppointmentScreen> {
-  int _selectedTab = 0; // 0: Accepted, 1: Cancelled
+class ToForPassOTP extends StatefulWidget {
+  @override
+  _ToForPassOTPState createState() => _ToForPassOTPState();
+}
+
+class _ToForPassOTPState extends State<ToForPassOTP> {
+int _selectedTab = 0;
 
   final List<Map<String, String>> acceptedAppointments = [
     {
