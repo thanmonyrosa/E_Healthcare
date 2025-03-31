@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-// import 'package:healthcare/newfeed.dart';
-// import './detail.dart';
-// import 'package:healthcare/newfeed.dart';
-// import 'package:healthcare/appointment.dart';
-import '../test.dart';
-// import 'appointment.dart';
-// import './newfeed.dart';
+import 'package:healthcare/Record/record_password.dart';
+import 'RegisterAccount/singup.dart';
+import 'ForgetPassword/forget_password.dart';
+
 
 void main() {
-  runApp(const MyApp());
+  // runApp(const MyApp());
+  // runApp(const RecordPassword());
+  // runApp(const RegisterScreen());
+  runApp(const ForgetPassword());
 }
 
 class MyApp extends StatelessWidget {
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const Infocontact(contactName: "IW"), // Fix: Pass a contact name
-      home: BookingPage(),
+      // home: BookingPage(),
     );
   }
 }
