@@ -3,6 +3,7 @@ import 'package:healthcare/Record/record_password.dart';
 import 'RegisterAccount/singup.dart';
 import 'ForgetPassword/forget_password.dart';
 import 'StartApp/GetStart.dart';
+import 'Appointment/Appointment.dart';
 
 
 void main() {
@@ -10,7 +11,8 @@ void main() {
   // runApp(const RecordPassword());
   // runApp(const RegisterScreen());
   // runApp(const ForgetPassword());
-  runApp(const GetStart());
+  // runApp(const GetStart());
+  runApp(const AppointmentScreen());
 }
 
 class MyApp extends StatelessWidget {
