@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:healthcare/RegisterAccount/signup_done.dart';
 import 'package:healthcare/RegisterAccount/singup.dart';
-// import 'package:e_healthcare_application/Register/singup.dart';
-// import 'package:e_healthcare_application/Register/signup_done.dart';
 
 class SignupOTP extends StatelessWidget {
   const SignupOTP({super.key});

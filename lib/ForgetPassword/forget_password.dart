@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:e_healthcare_application/Register/singup.dart';
 import 'forget_pass_OTP.dart';
 
 class ForgetPassword extends StatelessWidget {

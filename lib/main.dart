@@ -2,13 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:healthcare/Record/record_password.dart';
 import 'RegisterAccount/singup.dart';
 import 'ForgetPassword/forget_password.dart';
+import 'StartApp/GetStart.dart';
 
 
 void main() {
   // runApp(const MyApp());
   // runApp(const RecordPassword());
   // runApp(const RegisterScreen());
-  runApp(const ForgetPassword());
+  // runApp(const ForgetPassword());
+  runApp(const GetStart());
 }
 
 class MyApp extends StatelessWidget {

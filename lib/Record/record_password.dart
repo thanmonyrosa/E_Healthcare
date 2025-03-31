@@ -1,4 +1,3 @@
-// import 'package:e_healthcare_application/Record/record_list.dart';
 import 'package:healthcare/Record/record_list.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

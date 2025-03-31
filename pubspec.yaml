@@ -84,6 +84,7 @@ flutter:
     - assets/images/facebook-logo.png
     - assets/images/google-logo.png
     - assets/images/record_image.png
+    - assets/images/GetStart_image.png
 
 
   fonts:
